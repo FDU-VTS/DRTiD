@@ -1,9 +1,8 @@
 # DRTiD
-Diabetic Retinopathy Two-field image Dataset
 
-We will release the dataset and the source code of CrossFiT soon
 
-## Introduction
+We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image Dataset (DRTiD), consisting of 3,100 two-field fundus images. Two-field images contains a pair of macula-centric and optic disc-centric images.
+
 
 
 ## Related Papers
