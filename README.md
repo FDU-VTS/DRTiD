@@ -1,21 +1,20 @@
 # DRTiD
 
 
-We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image Dataset (DRTiD), consisting of 3,100 two-field fundus images. Two-field images contains a pair of macula-centric and optic disc-centric images.
+We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image Dataset (DRTiD), consisting of 3,100 two-field fundus images. Two-field images contains a pair of macula-centric and optic disc-centric images. We provide annotations of DR & DME severity grades and localization of macula & optic disc.
 
 
-
-## Related Papers
-
-
-## Related Codes
+### Related Papers
 
 
-## Now DRTiD is publicly available
+### Related Codes
+[Source code of CrossFiT](https://github.com/FDU-VTS/DRTiD/)
 
-## Get Password
+### Now DRTiD is publicly available
 
-To get the password of the compressed package, an application email must be sent to jlhou18@fudan.edu.cn with a specified form like below, otherwise may be ignored.
+### Get Password
+
+To get the password of the compressed package, an application email must be sent to jlhou18@fudan.edu.cn (Junlin Hou) with a specified form like below, otherwise may be ignored.
 
 Title of Mail:
 
@@ -31,10 +30,12 @@ Main Works: Your Main Works
 
 Usages: YourUsages About This Data Set
 
-## Dataset Structure
+### Dataset Structure
 
-## Instructions
+
+
+### Instructions
 
 An DR open access dataset for research only.
 
-By using the DRTiD dataset, you are obliged to reference at least one of the following papers:
+By using the DRTiD dataset, you are obliged to reference the following paper:
