@@ -1,5 +1,6 @@
 # DRTiD
 
+![](https://github.com/FDU-VTS/DRTiD/blob/main/src/intro.png)
 
 We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image Dataset (DRTiD), consisting of 3,100 two-field fundus images. Two-field images contains a pair of macula-centric and optic disc-centric images. We provide annotations of DR & DME severity grades and localization of macula & optic disc.
 
