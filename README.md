@@ -9,7 +9,7 @@ We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image 
 
 
 ### Related Codes
-[Source code of CrossFiT: https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
+Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
 
 ## 📢📢📢 Now DRTiD is publicly available
 
