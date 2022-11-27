@@ -1,8 +1,8 @@
 # Cross-Field Transformer for Two-field Fundus Images
 
+This repo covers the source code of paper Cross-Field Transformer for Two-field Fundus Images (BIBM 2022).
 ![](https://github.com/FDU-VTS/DRTiD/blob/main/src/CrossFiT.png)
 
-This repo covers the source code of paper Cross-Field Transformer for Two-field Fundus Images (BIBM 2022).
 
 ## Dataset
 Download the Diabetic Retinopathy Two-field image Dataset (DRTiD) from [https://github.com/FDU-VTS/DRTiD](https://github.com/FDU-VTS/DRTiD)
