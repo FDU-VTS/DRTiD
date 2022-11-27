@@ -1,5 +1,7 @@
 # Cross-Field Transformer for Two-field Fundus Images
 
+![](https://github.com/FDU-VTS/DRTiD/blob/main/src/CrossFiT.png)
+
 This repo covers the source code of paper Cross-Field Transformer for Two-field Fundus Images (BIBM 2022).
 
 ## Dataset
