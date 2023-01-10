@@ -31,7 +31,7 @@ Main Works: Your Main Works
 
 Usages: Your Usages About This Data Set
 
-Attachment: Please download, read, sign an EULA ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing)), and attach it to your email.
+Attachment: Please Download, Read, Sign an EULA ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing)), and Attach it To Your Email.
 
 ### Dataset Structure
 
