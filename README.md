@@ -5,10 +5,10 @@
 We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image Dataset (DRTiD), consisting of 3,100 two-field fundus images. Two-field images contains a pair of macula-centric and optic disc-centric images. We provide annotations of DR severity grades and localization of macula & optic disc.
 
 
-### Related Papers
+### Related Paper
 Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990.
 
-### Related Codes
+### Related Code
 Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
 
 ## 📢📢📢 Now DRTiD is publicly available
