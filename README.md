@@ -6,16 +6,16 @@ We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image 
 
 
 ### Related Papers
-
+Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990.
 
 ### Related Codes
 Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
 
 ## 📢📢📢 Now DRTiD is publicly available
 
-### Get Password
+### Get Dataset
 
-To get the password of the compressed package, an application email must be sent to jlhou18@fudan.edu.cn (Junlin Hou) with a specified form like below, otherwise may be ignored.
+To get the DRTiD dataset, an application email must be sent to jlhou18@fudan.edu.cn (Junlin Hou) with a specified form like below, otherwise may be ignored.
 
 **Title of Email**:
 
