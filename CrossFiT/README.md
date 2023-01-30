@@ -8,6 +8,9 @@ This repo covers an official PyTorch implementation of the paper ''Cross-Field T
 ## Dataset
 Download the Diabetic Retinopathy Two-field image Dataset (DRTiD) from [https://github.com/FDU-VTS/DRTiD](https://github.com/FDU-VTS/DRTiD).
 
+## Pretrained model
+Our pretrained ResNet-50 from Kaggle 2015 DR detection challenge can be found [here](https://github.com/FDU-VTS/DRTiD/releases/tag/v1.0)
+
 ## Train
 
 ### Single-field methods
