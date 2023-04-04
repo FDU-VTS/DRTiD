@@ -6,7 +6,7 @@ We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image 
 
 
 ### Related Paper
-Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990.
+Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990. [[arxiv](https://arxiv.org/abs/2211.14552)]
 
 ### Related Code
 Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
@@ -25,13 +25,13 @@ The string of 'DRTiD' can not be empty. It is the fixed form and a special sign 
 
 **Body of Email**:
 
-Organization Detail: Your Organization Details
+1. Organization Detail: Your Organization Details
 
-Main Works: Your Main Works
+2. Main Works: Your Main Works
 
-Usages: Your Usages About This Data Set
+3. Usages: Your Usages About This Data Set
 
-Attachment: Please Download ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing) or [Baidu](https://pan.baidu.com/s/1zYrwkkmKKuhUwbEFs-lZJw?pwd=84ns)), Read, Sign an EULA (please add a handwritten or electronic signature), and Attach it To Your Email.
+4. **Attachment: Please Download ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing) or [Baidu](https://pan.baidu.com/s/1zYrwkkmKKuhUwbEFs-lZJw?pwd=84ns)), Read, Sign an EULA (please add a handwritten or electronic signature), and Attach it To Your Email.**
 
 
 ### Dataset Structure
