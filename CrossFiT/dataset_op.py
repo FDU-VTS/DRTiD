@@ -18,28 +18,30 @@ class drtid(data.Dataset):
     def __init__(self, train=False, test=False):
         self.train = train
         self.test = test
-        self.path = '/home/feng/hjl/twofield/pair_data/'
+
+        self.path = './DRTiD/'
+        self.file = 'Original Images/'
 
         if train:
-            self.file = 'newall/newall_/'
-            e_file = 'newfundus_train_seperate1+0223final.xlsx' 
+            e_file = 'Ground Truths/DR_grade/a. DR_grade_Training.csv' 
         else:
-            self.file = 'newall/newall_/'
-            e_file = 'newfundus_test_seperate1+0223final.xlsx' 
+            e_file = 'Ground Truths/DR_grade/b. DR_grade_Testing.csv'   
         self.imgs = []
 
-        op_path = 'coordinates3100.csv' 
+        op_path = 'Ground Truths/Optic_Macula_Localization/op_ma_localization.csv' 
         op_file = pd.read_csv(self.path+op_path)
         self.dict_op = {}
         for index, row in op_file.iterrows():
             image_name = row['image'].split('.')[0]
             self.dict_op[image_name] = [row['op_x'],row['op_y']]
-
-        ws = pxl.load_workbook(self.path + e_file).active
-        for i in range(2,ws.max_row+1):
-            rank = int(ws.cell(i,2).value)
-            img1_name = ws.cell(i,3).value
-            img2_name = ws.cell(i,4).value
+            
+            
+        csv_file = pd.read_csv(self.path + e_file)
+        self.dict_label = {}
+        for index, row in csv_file.iterrows():
+            rank = row['Grade']
+            img1_name = row['Macula']
+            img2_name = row['Optic disc']
             img1_op = self.dict_op[img1_name]
             img2_op = self.dict_op[img2_name]
             self.imgs.append([self.path+self.file+img1_name+'.jpg',self.path+self.file+img2_name+'.jpg',rank,img1_op,img2_op])
@@ -152,7 +154,7 @@ class deepdrid_clf(data.Dataset):
         self.test = test
         self.tta_val = tta_val
         self.tta_test = tta_test
-        self.path = '/home/feng/hjl/twofield/DeepDRiD/'
+        self.path = './DeepDRiD/'
 
         if train:
             self.file = 'Regular_DeepDRiD/regular_train/'
