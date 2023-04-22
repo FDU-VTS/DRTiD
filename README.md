@@ -39,7 +39,7 @@ The string of 'DRTiD' can not be empty. It is the fixed form and a special sign 
 ```
 DRTiD
 ├── Original Images
-└── Groundtruths
+└── Ground Truths
     ├── DR_grade
     │   ├── a. DR_grade_Training.csv
     │   └── b. DR_grade_Testing.csv
