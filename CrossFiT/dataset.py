@@ -4,17 +4,12 @@ from torch.utils.data import DataLoader
 from torchvision import transforms as T 
 from PIL import Image
 import torch
-import csv
-from random import shuffle, sample
 import numpy as np 
 import openpyxl as pxl
-import cv2
 import pandas as pd
 from regist.crop import RandomResizedCrop_img, RandomCrop_img
 from regist.affine import RandomAffine_img
-from torchvision import utils as vutils
 from regist.flip import RandomHorizontallyFlip_img, RandomVerticallyFlip_img
-import time
 
 
 
