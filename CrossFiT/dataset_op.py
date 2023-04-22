@@ -4,7 +4,6 @@ from torch.utils.data import DataLoader
 from torchvision import transforms as T 
 from PIL import Image
 import torch
-from random import shuffle, sample
 import numpy as np 
 import openpyxl as pxl
 import pandas as pd
