@@ -17,24 +17,23 @@ class drtid(data.Dataset):
     def __init__(self, train=False, test=False):
         self.train = train
         self.test = test
-        self.path = '/home/feng/hjl/twofield/pair_data/'
+        self.path = './DRTiD/'
+        self.file = 'Original Images/'
 
         if train:
-            self.file = 'newall/newall_/'
-            e_file = 'newfundus_train_seperate1+0223final.xlsx' 
+            e_file = 'Ground Truths/DR_grade/a. DR_grade_Training.csv' 
         else:
-            self.file = 'newall/newall_/'
-            e_file = 'newfundus_test_seperate1+0223final.xlsx'     
+            e_file = 'Ground Truths/DR_grade/b. DR_grade_Testing.csv'   
         self.imgs = []
 
-        ws = pxl.load_workbook(self.path + e_file).active
-        for i in range(2,ws.max_row+1):
-            rank = int(ws.cell(i,2).value)
-            img1_name = ws.cell(i,3).value
-            img2_name = ws.cell(i,4).value
-            # id = ws.cell(i,1).value
+        csv_file = pd.read_csv(self.path + e_file)
+        self.dict_label = {}
+        for index, row in csv_file.iterrows():
+            rank = row['Grade']
+            img1_name = row['Macula']
+            img2_name = row['Optic disc']
+            # id = row['ID']
             self.imgs.append([self.path+self.file+img1_name+'.jpg',self.path+self.file+img2_name+'.jpg',rank])
-
 
         self.rgb_norm_global = T.Normalize(
             mean = [0.372487, 0.217266, 0.119367],
@@ -122,7 +121,7 @@ class deepdrid_clf(data.Dataset):
         self.train = train
         self.val = val
         self.test = test
-        self.path = '/home/feng/hjl/twofield/DeepDRiD/'
+        self.path = './DeepDRiD/'
 
         if train:
             self.file = 'Regular_DeepDRiD/regular_train/'
