@@ -1,8 +1,17 @@
-# Cross-Field Transformer for Two-field Fundus Images
+# Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images
 
-This repo covers an official PyTorch implementation of the paper ''Cross-Field Transformer for Two-field Fundus Images'' (BIBM 2022).
+This repo covers an official PyTorch implementation of the paper ''Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images'' (BIBM 2022).
 
 ![](https://github.com/FDU-VTS/DRTiD/blob/main/src/CrossFiT.png)
+
+
+## Requirements
+
+- python 3.8
+- torch 1.12
+- torchnet 0.0.4
+- scikit-learn 0.24.2
+
 
 
 ## Dataset
