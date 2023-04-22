@@ -7,11 +7,11 @@ This repo covers an official PyTorch implementation of the paper ''Cross-Field T
 
 ## Requirements
 
-- python 3.8
-- torch 1.12
-- numpy 1.19
-- torchnet 0.0.4
-- scikit-learn 0.24.2
+We run our code on Python 3.8 and torch 1.12. 
+To install the other requirements:
+```
+pip install -r requirements.txt
+```
 
 
 
