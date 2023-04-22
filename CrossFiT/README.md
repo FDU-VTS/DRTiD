@@ -9,6 +9,7 @@ This repo covers an official PyTorch implementation of the paper ''Cross-Field T
 
 - python 3.8
 - torch 1.12
+- numpy 1.19
 - torchnet 0.0.4
 - scikit-learn 0.24.2
 
