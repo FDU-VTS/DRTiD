@@ -8,7 +8,6 @@ from importlib import import_module
 from torch.utils.data import DataLoader
 from dataset_op import deepdrid_clf, drtid
 from datetime import datetime
-import cv2
 from utils.functions import progress_bar
 from torchnet import meter
 import torch.nn.functional as F
