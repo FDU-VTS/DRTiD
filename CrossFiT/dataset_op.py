@@ -4,15 +4,11 @@ from torch.utils.data import DataLoader
 from torchvision import transforms as T 
 from PIL import Image
 import torch
-import csv
 from random import shuffle, sample
 from numpy.random import choice
 import numpy as np 
 import openpyxl as pxl
-import cv2
 import pandas as pd
-
-import time
 from torch.nn import functional as F
 from regist.crop import RandomResizedCrop
 from regist.affine import RandomAffine 
