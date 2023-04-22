@@ -6,7 +6,7 @@ We propose a new benchmark dataset, namely Diabetic Retinopathy Two-field image 
 
 
 ### Related Paper
-Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990. [[arxiv](https://arxiv.org/abs/2211.14552)]
+Junlin Hou, Jilan Xu, Fan Xiao, Rui-Wei Zhao, Yuejie Zhang, Haidong Zou, Lina Lu, Wenwen Xue, Rui Feng. Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images. 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE Computer Society, 2022: 985-990. [[paper](https://ieeexplore.ieee.org/abstract/document/9995459)][[arxiv](https://arxiv.org/abs/2211.14552)]
 
 ### Related Code
 Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT)
