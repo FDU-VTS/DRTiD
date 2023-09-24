@@ -13,25 +13,33 @@ Source code of CrossFiT: [https://github.com/FDU-VTS/DRTiD/tree/main/CrossFiT](h
 
 ## 📢📢📢 Now DRTiD is publicly available
 
-### Get Dataset
+### Download Dataset
 
-To get the DRTiD dataset, an application email must be sent to jlhou18@fudan.edu.cn (Junlin Hou) with a specified form like below, otherwise may be ignored.
+Please download the DRTiD dataset from [Google](https://drive.google.com/file/d/1p9GBaXcq65rBNkY9Mou8zbzF0RIsLo-6/view?usp=share_link) or [Baidu](https://pan.baidu.com/s/12b11WYXMOKMl1POZUImoTg?pwd=4a54).
+
+### Get password
+
+To get the password, an application email must be sent to jlhou18@fudan.edu.cn (Junlin Hou) with a specified form like below.
 
 **Title of Email**:
 
 DRTiD: your_organization: your_name
 
+<!--
 The string of 'DRTiD' can not be empty. It is the fixed form and a special sign we use to identifying your downloading intention from other disturbers like spams. The contents appending to DRTiD can help us identifying you more easily.
+-->
 
 **Body of Email**:
 
+<!--
 1. Organization Detail: Your Organization Details
 
 2. Main Works: Your Main Works
+-->
 
-3. Usages: Your Usages About This Data Set
+1. Usages: Your Usages About This Data Set
 
-4. **Attachment: Please Download ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing) or [Baidu](https://pan.baidu.com/s/1zYrwkkmKKuhUwbEFs-lZJw?pwd=84ns)), Read, Sign an EULA (please add a handwritten or electronic signature), and Attach it To Your Email.**
+2. **Attachment: Please Download ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing) or [Baidu](https://pan.baidu.com/s/1zYrwkkmKKuhUwbEFs-lZJw?pwd=84ns)), Read, Sign an EULA (please add a handwritten or electronic signature), and Attach it To Your Email.**
 
 
 ### Dataset Structure
