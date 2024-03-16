@@ -41,6 +41,10 @@ The string of 'DRTiD' can not be empty. It is the fixed form and a special sign 
 
 2. **Attachment: Please Download ([GoogleDrive](https://drive.google.com/file/d/1X1o-uAwTwHajtwTfBK1X-Y97amvOgrQP/view?usp=sharing) or [Baidu](https://pan.baidu.com/s/1zYrwkkmKKuhUwbEFs-lZJw?pwd=84ns)), Read, Sign an EULA (please add a handwritten or electronic signature), and Attach it To Your Email.**
 
+----------------------
+All images from the DRTiD dataset are of gradable quality and annotated by three experienced ophthalmologists.
+
+We also provide the initial version, without image quality check and label re-verification by ophthalmologists. The initial labels are provided by community screening.
 
 ### Dataset Structure
 
